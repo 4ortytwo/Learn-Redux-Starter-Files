@@ -1,6 +1,6 @@
 {
   "name": "learn-redux",
-  "version": "1.0.0",
+  "version": "1.19.1",
   "description": ":) ",
   "scripts": {
     "build:webpack": "NODE_ENV=production webpack --config webpack.config.prod.js",
