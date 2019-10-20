@@ -1,10 +1,10 @@
 import React from 'react';
 import Photo from './Photo';
 
-const PhotoGrid = () => (
+const PhotoGrid = props => (
   <div className="photo-grid">
-    {this.props.posts.map((post, i) => (
-      <Photo {...this.props} key={i} i={i} post={post} />
+    {props.posts.map((post, i) => (
+      <Photo {...props} key={i} i={i} post={post} />
     ))}
   </div>
 );
